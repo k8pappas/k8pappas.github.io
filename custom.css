@@ -1,0 +1,55 @@
+body, html {
+height:100vh;
+overflow:hidden;
+}
+
+.empty{
+background-image: url("images/home.png");
+ background-size:40%;
+ background-position: bottom;
+ background-repeat: no-repeat;
+ 
+}
+
+
+.empty:hover{
+    background-image: url("images/home2.png");
+     background-size:40%;
+     background-position: bottom;
+     background-repeat: no-repeat;
+     
+    }
+
+
+.jumbotron {
+    background-color:transparent;
+   padding-top:10em;
+}
+
+.btn {
+    border-color:black;
+    border-width: 3px;
+    background-color:transparent;
+    color:rgb(137, 134, 134);
+
+}
+
+.btn:hover {
+    border-color:black;
+    border-width: 4px;
+    background-color:transparent;
+    color:black;
+    background-image: url("images/bandbutton.png");
+    background-size:102%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    background-color:black;
+}
+.btn-primary:active {
+    background-color:black;
+}
+
